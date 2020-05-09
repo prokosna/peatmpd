@@ -15,3 +15,5 @@ Currently following features are supported:
 - Smart Playlists
 
 Because peatmpd is developed by using Electron, it is expected to work on various platforms such as Linux, Mac and Windows. **But nothing is tested except for Linux now.**
+
+Binary files can be downloaded from the [releases page](https://github.com/prokosna/peatmpd/releases).
