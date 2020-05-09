@@ -422,7 +422,10 @@ export default {
         return
       }
 
-      await this.savePlayingQueueAsPlaylist(playlist)
+      this.addSongsToPlaylist({
+        playlist,
+        files: this.songs.map(v => v.file)
+      })
     },
 
     confirmAction: function(action, title, text) {

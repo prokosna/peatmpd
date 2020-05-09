@@ -493,7 +493,10 @@ export default {
         return
       }
 
-      await this.savePlayingQueueAsPlaylist(playlist)
+      this.addSongsToPlaylist({
+        playlist,
+        files: this.songs.map(v => v.file)
+      })
     },
 
     updateSelectedMetaTags: function(selected) {
