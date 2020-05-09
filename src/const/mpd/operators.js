@@ -1,0 +1,5 @@
+export const EQUAL = 'Equals'
+export const NOT_EQUAL = 'Does not equal'
+export const CONTAIN = 'Contains'
+export const NOT_CONTAIN = 'Does not contain'
+export const REGEX = 'Regex'
