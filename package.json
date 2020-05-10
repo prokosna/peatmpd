@@ -25,16 +25,26 @@
     "vuex": "^3.3.0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
     "@vue/cli-plugin-babel": "^4.3.1",
     "@vue/cli-plugin-eslint": "^4.3.1",
+    "@vue/cli-plugin-typescript": "^4.3.1",
+    "@vue/cli-plugin-vuex": "^4.3.1",
     "@vue/cli-service": "^4.3.1",
-    "babel-eslint": "^10.1.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/eslint-config-typescript": "^5.0.2",
     "electron": "^6.1.10",
     "electron-icon-builder": "^1.0.2",
     "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^5.0.0",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
+    "typescript": "~3.8.3",
     "vue-cli-plugin-electron-builder": "^1.4.6",
     "vue-cli-plugin-vuetify": "^2.0.5",
     "vue-template-compiler": "^2.6.10",
@@ -47,14 +57,14 @@
     },
     "extends": [
       "plugin:vue/essential",
-      "eslint:recommended"
+      "@vue/typescript/recommended"
     ],
     "rules": {
       "no-console": 0,
       "no-unused-vars": 0
     },
     "parserOptions": {
-      "parser": "babel-eslint"
+      "ecmaVersion": 2020
     }
   },
   "browserslist": [
