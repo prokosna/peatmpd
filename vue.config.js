@@ -17,7 +17,7 @@ module.exports = {
           target: 'zip'
         },
         linux: {
-          target: ['AppImage'],
+          target: ['AppImage', 'deb'],
           category: 'Audio',
           icon: 'build/icon.icns'
         }

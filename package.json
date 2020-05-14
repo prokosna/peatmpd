@@ -2,7 +2,7 @@
   "name": "peatmpd",
   "version": "0.1.1",
   "description": "peatmpd is a mpd client powered by Vue.js, Vuetify and Electron.",
-  "author": "https://github.com/prokosna",
+  "author": "prokosna <prokosna@gmail.com>",
   "license": "ISC",
   "scripts": {
     "serve": "vue-cli-service serve",
